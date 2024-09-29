@@ -7,7 +7,7 @@ echo 'Build and Test successful!'
 } }
 stage('Generate Artifact') {
 steps {
-echo "hello“ } } }
+echo "hello" } } }
 post {
 success {
-echo 'Pipeline completed successfully!‘ } } }
+echo 'Pipeline completed successfully!' } } }
